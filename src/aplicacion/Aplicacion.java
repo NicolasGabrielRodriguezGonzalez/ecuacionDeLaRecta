@@ -8,9 +8,11 @@ package aplicacion;
 import interfaz.VentanaPrincipal;
 
 public class Aplicacion {
+	private VentanaPrincipal miVentanaPrincipal;
     public static void main(String[] args) {
         VentanaPrincipal miVentanaPrincipal = new VentanaPrincipal();
-        miVentanaPrincipal.setLocationRelativeTo(null); // Centrar la ventana en la pantalla
+        
+        miVentanaPrincipal.setLocationRelativeTo(null);
         miVentanaPrincipal.setVisible(true);
     }
 }
